@@ -40,8 +40,8 @@ const { Node } = require('../extensions/list-tree.js');
 class BinarySearchTree {
 
   // constructor() {
-  //   this.root = null;
-  //   return this.root;
+  //   this.rootElem = null;
+  //   return this.rootElem;
   // }
   
   root() {
