@@ -14,9 +14,9 @@ const { ListNode } = require('../extensions/list-node.js');
  * queue.getUnderlyingList() // returns { value: 3, next: null }
  */
 class LinkedLists {
-  // constructor() {
-  //   this.head = null;
-  // }
+  constructor() {
+    this.head = null;
+  }
 
   append(value) {
     const newNode = new ListNode(value);
@@ -48,7 +48,7 @@ class Queue {
   }
 
   getUnderlyingList() {
-    return this.linkedLists;
+    return this.linkedLists.head;
   }
 
   enqueue( value ) {
